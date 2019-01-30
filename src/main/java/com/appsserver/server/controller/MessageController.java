@@ -2,21 +2,14 @@ package com.appsserver.server.controller;
 
 import com.appsserver.server.domain.Message;
 import com.appsserver.server.domain.Views;
-import com.appsserver.server.exceptions.NotFoundException;
 import com.appsserver.server.repo.MessageRepo;
 import com.fasterxml.jackson.annotation.JsonView;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.View;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
-import static javax.swing.UIManager.put;
 
 @RestController
 @RequestMapping("message")

@@ -10,8 +10,7 @@ module.exports = {
         compress: true,
         port: 8000,
         allowedHosts: [
-            'localhost:8080',
-            '37.57.161.201:8181'
+            'localhost:8080'
         ],
         stats: 'errors-only',
         clientLogLevel: 'error'
@@ -31,6 +30,15 @@ module.exports = {
             {
                 test: /\.vue$/,
                 loader: 'vue-loader'
+            },
+            // это будет применяться к файлам `.css`
+            // А ТАКЖЕ к секциям `<style>` внутри файлов `.vue`
+            {
+                test: /\.css$/,
+                use: [
+                    'vue-style-loader',
+                    'css-loader'
+                ]
             }
         ]
     },

@@ -5,7 +5,7 @@ import App from 'pages/App.vue'
 import { connect } from './util/ws'
 
 if (frontendData.profile) {
-    connect();
+    connect()
 }
 
 Vue.use(VueResource)

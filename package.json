@@ -1,0 +1,25 @@
+{
+  "name": "AppsServer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ed <edko@ua.fm>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.5",
+    "vue-resource": "^1.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "vue-loader": "^15.6.2",
+    "vue-template-compiler": "^2.6.5",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

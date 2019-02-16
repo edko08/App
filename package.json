@@ -5,11 +5,13 @@
   "author": "Ed <edko@ua.fm>",
   "license": "MIT",
   "dependencies": {
+    "@babel/polyfill": "^7.2.5",
     "@stomp/stompjs": "^5.2.0",
     "sockjs-client": "^1.3.0",
     "vue": "^2.6.5",
     "vue-resource": "^1.5.1",
-    "vuetify": "^1.5.0"
+    "vuetify": "^1.5.0",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",

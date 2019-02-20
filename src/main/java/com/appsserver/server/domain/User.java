@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "usr")
 @Data
-public class User  implements Serializable {
+public class User implements Serializable {
     @Id
     private String id;
     private String name;
@@ -22,5 +22,4 @@ public class User  implements Serializable {
     private String locale;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     private LocalDateTime lastVisit;
-
 }

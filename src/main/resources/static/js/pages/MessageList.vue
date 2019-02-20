@@ -14,6 +14,7 @@
     import { mapGetters } from 'vuex'
     import MessageRow from 'components/messages/MessageRow.vue'
     import MessageForm from 'components/messages/MessageForm.vue'
+
     export default {
         components: {
             MessageRow,
@@ -34,4 +35,5 @@
 </script>
 
 <style>
+
 </style>
